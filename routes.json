@@ -1,0 +1,136 @@
+[
+  {
+    "path": "/",
+    "component": "Layout",
+    "redirect": "/dashboard",
+    "children": [
+      {
+      "path": "dashboard",
+      "name": "Dashboard",
+      "component": "dashboard",
+      "meta": { "title": "Dashboard", "icon": "el-icon-s-home" }
+      }
+    ]
+  },
+    {
+      "path": "/example",
+      "component": "Layout",
+      "redirect": "/example/table",
+      "name": "Example",
+      "meta": { "title": "Example", "icon": "el-icon-s-help" },
+      "children": [
+        {
+          "path": "table",
+          "name": "Table",
+          "component": "table",
+          "meta": { "title": "Table", "icon": "el-icon-folder" }
+        },
+        {
+          "path": "tree",
+          "name": "Tree",
+          "component": "tree",
+          "meta": { "title": "Tree", "icon": "el-icon-folder-opened" }
+        }
+      ]
+    },
+
+    {
+      "path": "/icons",
+      "component": "Layout",
+      "redirect": "/icons/index",
+      "meta": { "title": "Icons", "icon": "el-icon-c-scale-to-original", "noCache": true },
+      "children": [
+        {
+          "path": "index",
+          "component": "icons",
+          "name": "Icons",
+          "meta": { "title": "Icons", "icon": "el-icon-c-scale-to-original", "noCache": true }
+        }
+      ]
+    },
+  
+    {
+      "path": "/form",
+      "component": "Layout",
+      "redirect": "/form/index",
+      "meta": { "title": "Form", "icon": "el-icon-document" },
+      "children": [
+        {
+          "path": "index",
+          "name": "Form",
+          "component": "form",
+          "meta": { "title": "Form", "icon": "el-icon-document" }
+        }
+      ]
+    },
+
+    {
+      "path": "/nested",
+      "component": "Layout",
+      "redirect": "/nested/menu1",
+      "name": "Nested",
+      "meta": {
+        "title": "Nested",
+        "icon": "el-icon-reading"
+      },
+      "children": [
+        {
+          "path": "menu1",
+          "component": "menu1", 
+          "name": "Menu1",
+          "meta": { "title": "Menu1", "icon": "el-icon-notebook-1"},
+          "children": [
+            {
+              "path": "menu1-1",
+              "component": "menu1-1",
+              "name": "Menu1-1",
+              "meta": { "title": "Menu1-1", "icon": "el-icon-files" }
+            },
+            {
+              "path": "menu1-2",
+              "component": "menu1-2",
+              "name": "menu1-2",
+              "meta": { "title": "menu1-2", "icon": "el-icon-receiving" },
+              "children": [
+                {
+                  "path": "menu1-2-1",
+                  "component": "menu1-2-1",
+                  "name": "menu1-2-1",
+                  "meta": { "title": "menu1-2-1", "icon": "el-icon-paperclip" }
+                },
+                {
+                  "path": "menu1-2-2",
+                  "component": "menu1-2-2",
+                  "name": "menu1-2-2",
+                  "meta": { "title": "menu1-2-2", "icon": "el-icon-film" }
+                }
+              ]
+            },
+            {
+              "path": "menu1-3",
+              "component": "menu1-3",
+              "name": "menu1-3",
+              "meta": { "title": "menu1-3", "icon": "el-icon-message" }
+            }
+          ]
+        },
+        {
+          "path": "menu2",
+          "component": "menu2",
+          "name": "Menu2",
+          "meta": { "title": "menu2", "icon": "el-icon-sunrise-1" }
+        }
+      ]
+    },
+    {
+      "path": "external-link",
+      "component": "Layout",
+      "meta": { "title": "External Link", "icon": "el-icon-link" },
+      "children": [
+        {
+          "path": "https://panjiachen.github.io/vue-element-admin-site/#/",
+          "meta": { "title": "External Link", "icon": "el-icon-link" }
+        }
+      ]
+    }
+  ]

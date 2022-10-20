@@ -1,0 +1,121 @@
+{
+  "id": "3186687",
+  "name": "Template",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "13690866",
+      "name": "暂停",
+      "font_class": "pause",
+      "unicode": "e857",
+      "unicode_decimal": 59479
+    },
+    {
+      "icon_id": "13690867",
+      "name": "相机",
+      "font_class": "camera",
+      "unicode": "e858",
+      "unicode_decimal": 59480
+    },
+    {
+      "icon_id": "13690868",
+      "name": "复制",
+      "font_class": "copy",
+      "unicode": "e859",
+      "unicode_decimal": 59481
+    },
+    {
+      "icon_id": "13690869",
+      "name": "减少",
+      "font_class": "reduce",
+      "unicode": "e85a",
+      "unicode_decimal": 59482
+    },
+    {
+      "icon_id": "13690870",
+      "name": "开始",
+      "font_class": "start",
+      "unicode": "e85b",
+      "unicode_decimal": 59483
+    },
+    {
+      "icon_id": "13690871",
+      "name": "喜欢",
+      "font_class": "like",
+      "unicode": "e85c",
+      "unicode_decimal": 59484
+    },
+    {
+      "icon_id": "13690872",
+      "name": "书籍",
+      "font_class": "book",
+      "unicode": "e85d",
+      "unicode_decimal": 59485
+    },
+    {
+      "icon_id": "13690873",
+      "name": "用户",
+      "font_class": "user",
+      "unicode": "e85e",
+      "unicode_decimal": 59486
+    },
+    {
+      "icon_id": "13690874",
+      "name": "搜索",
+      "font_class": "search",
+      "unicode": "e85f",
+      "unicode_decimal": 59487
+    },
+    {
+      "icon_id": "13690875",
+      "name": "编辑",
+      "font_class": "edit",
+      "unicode": "e860",
+      "unicode_decimal": 59488
+    },
+    {
+      "icon_id": "13690876",
+      "name": "打印机",
+      "font_class": "printer",
+      "unicode": "e861",
+      "unicode_decimal": 59489
+    },
+    {
+      "icon_id": "13690877",
+      "name": "看见",
+      "font_class": "see",
+      "unicode": "e862",
+      "unicode_decimal": 59490
+    },
+    {
+      "icon_id": "13690878",
+      "name": "购物袋",
+      "font_class": "shopping_bag",
+      "unicode": "e863",
+      "unicode_decimal": 59491
+    },
+    {
+      "icon_id": "13690879",
+      "name": "关闭",
+      "font_class": "closure",
+      "unicode": "e864",
+      "unicode_decimal": 59492
+    },
+    {
+      "icon_id": "13690880",
+      "name": "标签-减少",
+      "font_class": "label-reduce",
+      "unicode": "e865",
+      "unicode_decimal": 59493
+    },
+    {
+      "icon_id": "13690881",
+      "name": "左对齐",
+      "font_class": "align_left",
+      "unicode": "e866",
+      "unicode_decimal": 59494
+    }
+  ]
+}
